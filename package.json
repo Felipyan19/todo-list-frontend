@@ -13,14 +13,13 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://pruebas.ccgltda.com/build/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "https://pruebas.ccgltda.com/unisanitasPrueba/",
+  "proxy": "http://192.168.10.168:3001",
   "eslintConfig": {
     "extends": [
       "react-app",

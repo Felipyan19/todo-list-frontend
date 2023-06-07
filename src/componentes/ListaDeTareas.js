@@ -10,7 +10,7 @@ function ListaDeTareas() {
     fetch('/api')
       .then((response) => response.json())
       .then((data) => setTareas(data.tareas))
-      .catch((error) => console.error(error));
+      .catch((error) => console.log(error));
   }, []);
 
   const agregarTarea = (tarea) => {
