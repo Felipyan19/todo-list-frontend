@@ -1,0 +1,95 @@
+.block-de-notas-contenedor {
+  position: relative;
+  height: 100%;
+}
+
+.blocks-de-notas-lista-contenedor {
+  margin-bottom: 80px;
+}
+
+.block-de-notas-formulario-fijo {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.block-de-notas-formulario-fijo.agregando {
+  transform: scale(1.1);
+}
+
+.block-de-notas-formulario-fijo button {
+  background-color: #0d3c55;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.block-de-notas-formulario-fijo button:hover {
+  background-color: #093750;
+  transform: translateY(-3px);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.block-de-notas-formulario {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  width: 400px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.block-de-notas-formulario.agregando {
+  transform: scale(1.1);
+}
+
+.block-de-notas-formulario label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.block-de-notas-formulario input,
+.block-de-notas-formulario textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-bottom: 20px;
+  resize: none;
+}
+
+.block-de-notas-formulario button {
+  background-color: #0d3c55;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.block-de-notas-formulario button:hover {
+  background-color: #0d3c55;
+  transform: translateY(-3px);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
